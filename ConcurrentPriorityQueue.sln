@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D1EC18E-62FC-4C86-94C6-937452928008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentPriorityQueue", "src\ConcurrentPriorityQueue\ConcurrentPriorityQueue.csproj", "{DDE8F599-ED31-4A92-BE3C-EEC5F0F0EDAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{EE4CBFAE-E0B9-4F48-A121-7F2BE3A541CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDE8F599-ED31-4A92-BE3C-EEC5F0F0EDAA} = {9D1EC18E-62FC-4C86-94C6-937452928008}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE8F599-ED31-4A92-BE3C-EEC5F0F0EDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE8F599-ED31-4A92-BE3C-EEC5F0F0EDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE8F599-ED31-4A92-BE3C-EEC5F0F0EDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE8F599-ED31-4A92-BE3C-EEC5F0F0EDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
